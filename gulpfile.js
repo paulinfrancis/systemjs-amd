@@ -10,7 +10,7 @@
 	});
 	
 	gulp.task('bundle', ['rm-bundles'], () => {
-		const builder = new Builder('src');
+		const builder = new Builder('./src', './config.js');
 		
 		builder.buildStatic('**/*', 'bundles/bundle.js')
 		       .then(() => {
