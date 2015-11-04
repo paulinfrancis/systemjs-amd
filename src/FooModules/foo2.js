@@ -1,7 +1,7 @@
-define('foo1', [], function(){
+define('foo1', [], function(){	
 	return {
 		hi: function(){
-			return 'Hi from foo2!'	
+			return 'Hi from foo1!'	
 		}
 	}
 });
